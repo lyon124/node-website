@@ -1,0 +1,19 @@
+{
+  "name": "node-website",
+  "version": "0.0.0",
+  "description": "mert",
+  "main": "server.js",
+  "scripts": {
+    "test": "yok",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yok"
+  },
+  "keywords": [
+    "yok"
+  ],
+  "author": "mert",
+  "license": "yok"
+}
