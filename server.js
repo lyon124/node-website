@@ -1,7 +1,10 @@
-var mongo = require('mongodb').MongoClient;
-var client = require('socket.io').listen(8080).sockets;
 
-mongo.connect('mongodb://127.0.0.1/chat', function(err,db){
+var client = require('socket.io').listen(8080).sockets;
+var mongodb = require('mongodb');
+var uri = 'mongodb://lyon124:12216251a@ds049858.mongolab.com:49858/deneme';
+mongodb.MongoClient.connect(uri, { server: { auto_reconnect: true } }, function (err, db) {
+    /* adventure! */
+
 if(err) throw err;
 
 client.on('connection', function(socket){

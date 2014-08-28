@@ -1,0 +1,23 @@
+{
+  "name": "node-website",
+  "version": "0.0.0",
+  "description": "yok",
+  "main": "index.js",
+  "scripts": {
+    "test": "yok",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyon124/node-website.git"
+  },
+  "keywords": [
+    "yok"
+  ],
+  "author": "yok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyon124/node-website/issues"
+  },
+  "homepage": "https://github.com/lyon124/node-website"
+}
